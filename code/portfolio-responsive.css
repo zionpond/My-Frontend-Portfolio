@@ -182,3 +182,32 @@
     box-shadow: none;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #welcome {
+    font-size: 3em;
+  }
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding: .625rem;
+    margin: auto;
+  }
+
+  .about-me {
+    max-width: 100vw;
+  }
+
+  .footer {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  .navbar2 {
+    /* margin: auto; */
+    justify-content: center;
+    max-width: 479px;
+  }
+}
