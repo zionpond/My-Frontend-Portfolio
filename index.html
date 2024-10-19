@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./code/portfolio-defaults.css">
+    <link rel="stylesheet" href="./code/portfolio.css">
+    <link rel="stylesheet" href="./code/portfolio-responsive.css">
+    <link rel="stylesheet" href="./code/portfolio-parallax.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./code/lightbox.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/0d6f8c4c80.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Zion Ponder</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <ul>
+            <li class="list active">
+                <a href="#home">
+                    <span class="icon">
+                        <ion-icon name="home-outline" title="Home"></ion-icon>
+                    </span>
+                    <span class="text" title="home">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#skills">
+                    <span class="icon">
+                        <ion-icon name="star-outline" title="Skills"></ion-icon>
+                    </span>
+                    <span class="text" title="skills">Skills</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#about-me">
+                    <span class="icon">
+                        <ion-icon name="person-outline" title="About Me"></ion-icon>
+                    </span>
+                    <span class="text" title="home"about me>About Me</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#portfolio">
+                    <span class="icon">
+                        <ion-icon name="briefcase-outline" title="Portfolio"></ion-icon>
+                    </span>
+                    <span class="text" title="home"portfolio>Portfolio</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#contact">
+                    <span class="icon">
+                        <ion-icon name="mail-outline" title="Contact"></ion-icon>
+                    </span>
+                    <span class="text" title="contact">Contact</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <!-- HEADER -->
+      <div id="home">
+        <section class="parallax">
+          <img src="./images/hill1.png" id="hill1" alt="h1">
+          <img src="./images/hill2.png" id="hill2" alt="h2">
+          <h2 id="welcome">Zion Ponder</h2>
+          <img src="./images/hill3.png" id="hill3" alt="h3">
+          <img src="./images/hill4.png" id="hill4" alt="h4">
+          <img src="./images/hill5.png" id="hill5" alt="h5">
+          <img src="./images/tree.png" id="tree" alt="tree">
+          <img src="./images/leaf.png" id="leaf" alt="leaf">
+          <img src="./images/plant.png" id="plant" alt="plant">
+        </section>
+        <div class="intro">
+          <h2 class="animation">I make websites look pretty.</h2>
+          <p class="animation">I am a software engineer specializing in building (and occasionally designing)
+            high-quality frontend websites and components.</p>
+            <span>
+              <a href="#portfolio">
+                <button class="animation">Explore My Work</button>
+              </a>
+              <a href="#about-me">
+                <button class="animation">About Me</button>
+              </a>
+            </span>
+        </div>
+      </div>
+
+    <hr>
+    <!-- SKILLS -->
+    <div class="bg">
+      <h1 class="center animation" id="skills">Skills</h1>
+      <div class="skills-container animation">
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>HTML5</h2>
+            </div>
+            <div class="card-back">
+              <a href="#portfolio"><i class="fa-brands fa-html5 fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>CSS</h2>
+            </div>
+            <div class="card-back">
+              <a href="#portfolio"><i class="fa-brands fa-css3-alt fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>JS</h2>
+            </div>
+            <div class="card-back">
+              <a href="#portfolio"><i class="fa-brands fa-js fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>GRAPHIC <br> DESIGN</h2>
+            </div>
+            <div class="card-back">
+              <a href="#design"><i class="fa-solid fa-palette fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>SHOPIFY</h2>
+            </div>
+            <div class="card-back">
+              <a href="#shopify"><i class="fa-brands fa-shopify fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>RESPONSIVE <br> DESIGN</h2>
+            </div>
+            <div class="card-back">
+              <a href="#"><i class="fa-solid fa-object-group fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>GIT</h2>
+            </div>
+            <div class="card-back">
+              <a href="#portfolio"><i class="fa-brands fa-git fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>GITHUB</h2>
+            </div>
+            <div class="card-back">
+              <a href="#portfolio"><i class="fa-brands fa-github fa-2x"></i></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="card-front">
+              <h2>UI DESIGN</h2>
+            </div>
+            <div class="card-back">
+              <a href="#design"><i class="fa-solid fa-user-pen fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+    <!-- ABOUT ME -->
+    <div class="bg">
+      <h1 id="about-me" class="animation">About Me</h1>
+      <section class="about-me animation">
+          <div class="about-me-p">
+            <p>Outside of web development, I have a passion for creating, exploring, being active, friendly competition, and learning new things.
+              I make digital, traditional, and 3D art. <br> <br>
+              I also shoot photography and videography in my spare time. I enjoy exploring nature and stay active.
+              I prioritize my physical health by going to the gym and getting exercise outside. I love friendly competition because it pushes me to be better, and I often learn something new at the same time.</p>
+          </div>
+          <div class="about-me-img">
+            <img src="./images/IMG_0902.JPG" alt="hobbies">
+          </div>
+      </section>
+    </div>
+
+    <hr>
+    <!-- PORTFOLIO -->
+    <div class="bg">
+      <h1 class="center animation3" id="portfolio">Notable Projects</h1>
+      <section class="portfolio animation3">
+          <div class="portfolio-container-1">
+              <input type="radio" name="slide" id="c1" checked>
+              <label for="c1" class="card">
+                  <div class="row">
+                      <div class="icon">1</div>
+                      <div class="description">
+                          <a href="https://thespotskateshop.netlify.app/" target="_blank">
+                            <h4>The Spot Skate Shop</h4>
+                          </a>
+                          <a href="https://github.com/zionpond/Skate-Shop" target="_blank">
+                            <p class="no-scroll">Shop all you're skate essentials here - HTML | CSS | JS</p>
+                          </a>
+                          <a href="https://github.com/zionpond/Skate-Shop" target="_blank">
+                            <p class="infinite-scroll">Shop all you're skate essentials here - HTML | CSS | JS</p>
+                          </a>
+                      </div>
+                  </div>
+              </label>
+              <input type="radio" name="slide" id="c2">
+              <label for="c2" class="card">
+                  <div class="row">
+                      <div class="icon">2</div>
+                      <div class="description">
+                          <a href="https://mytubebyzion.netlify.app/" target="_blank">
+                            <h4>MyTube</h4>
+                          </a>
+                          <a href="https://github.com/zionpond/MyTube" target="_blank">
+                            <p class="no-scroll">A YouTube-inspired video streaming platform - HTML | CSS | JS</p>
+                          </a>
+                          <a href="https://github.com/zionpond/MyTube" target="_blank">
+                            <p class="infinite-scroll">A YouTube-inspired video streaming platform - HTML | CSS | JS</p>
+                          </a>
+                      </div>
+                  </div>
+              </label>
+              <input type="radio" name="slide" id="c3">
+              <label for="c3" class="card">
+                  <div class="row">
+                      <div class="icon">3</div>
+                      <div class="description">
+                        <a href="https://kingkut.netlify.app/" target="_blank">
+                          <h4>King Kut</h4>
+                        </a>
+                        <a href="https://github.com/zionpond/King-Kut-Barbershop" target="_blank">
+                          <p class="no-scroll">You'll leave feeling like royalty - HTML | CSS | JS</p>
+                        </a>
+                        <a href="https://github.com/zionpond/King-Kut-Barbershop" target="_blank">
+                          <p class="infinite-scroll">You'll leave feeling like royalty - HTML | CSS | JS </p>
+                        </a>
+                      </div>
+                  </div>
+              </label>
+              <input type="radio" name="slide" id="c4">
+              <label for="c4" class="card">
+                  <div class="row">
+                      <div class="icon">4</div>
+                      <div class="description">
+                        <a href="https://coderadbyzion.netlify.app/" target="_blank">
+                          <h4>Code RAD</h4>
+                        </a>
+                        <a href="https://github.com/zionpond/Code-RAD-Project" target="_blank">
+                          <p class="no-scroll">SAAS Company - HTML | CSS | JS</p>
+                        </a>
+                        <a href="https://github.com/zionpond/Code-RAD-Project" target="_blank">
+                          <p class="infinite-scroll">SAAS Company - HTML | CSS | JS</p>
+                        </a>
+                      </div>
+                  </div>
+              </label>
+              <input type="radio" name="slide" id="c5">
+              <label for="c5" class="card">
+                  <div class="row">
+                      <div class="icon">5</div>
+                      <div class="description">
+                          <a href="">
+                            <h4>Portfolio</h4>
+                          </a>
+                          <a href="">
+                            <p class="no-scroll">Zion Ponder's Portfolio Projects Container - HTML | CSS | JS</p>
+                          </a>
+                          <a href="">
+                            <p class="infinite-scroll">Zion Ponder's Portfolio - HTML | CSS | JS</p>
+                          </a>
+                      </div>
+                  </div>
+              </label>
+          </div>
+      </section>
+    </div>
+
+    <hr>
+    <!-- GRAPHIC DESIGN -->
+    <div class="bg">
+      <section id="design">
+        <h1 class="center">Graphic Design</h1>
+            <div class="grid-gallery">
+              <div class="grid-item">
+                <a href="./images/world gym Flyer.png" data-lightbox="mockups" data-title="World Gym Flyer">
+                  <img src="././images/world gym Flyer.png" alt="World Gym Flyer">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/Vapor Power Backpack landing page.png" data-lightbox="mockups" data-title="Vapor Power Backpack landing page">
+                  <img src="./images/Vapor Power Backpack landing page.png" alt="Vapor Power Backpack landing page">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/sigyn landing page.png" data-lightbox="mockups" data-title="Sigyn landing page banner">
+                  <img src="./images/sigyn landing page.png" alt="Sigyn landing page banner">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/Modern Restaurant Food Menu For Fast Food Video.mp4" target="_blank">
+                  <img src="./images/Modern Restaurant Food Menu For Fast Food Video.png" alt="Smash Burger Advertisement">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/brickwood grill landing page.png" data-lightbox="mockups" data-title="Brickwood Grill landing page header">
+                  <img src="./images/brickwood grill landing page.png" alt="Brickwood Grill landing page header">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/dogTown Website Banner.png" data-lightbox="mockups" data-title="dogTown Website Banner">
+                  <img src="./images/dogTown Website Banner.png" alt="dogTown Website Banner">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/world gym landing page-Home.png" data-lightbox="mockups" data-title="World Gym landing page-Home">
+                  <img src="./images/world gym landing page-Home.png" alt="World Gym landing page-Home">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/world gym landing page-Services.png" data-lightbox="mockups" data-title="World Gym landing page-Services">
+                  <img src="./images/world gym landing page-Services.png" alt="World Gym landing page-Services">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/world gym landing page-About.png" data-lightbox="mockups" data-title="World Gym landing page-About">
+                  <img src="./images/world gym landing page-About.png" alt="World Gym landing page-About">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/world gym landing page-Contact.png" data-lightbox="mockups" data-title="World Gym landing page-Contact">
+                  <img src="./images/world gym landing page-Contact.png" alt="World Gym landing page-Contact">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/world gym landing page-Testimonials.png" data-lightbox="mockups" data-title="World Gym landing page-Testimonials">
+                  <img src="./images/world gym landing page-Testimonials.png" alt="World Gym landing page-Testimonials">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/GWDC Pastor Appreciation Day handout.png" data-lightbox="mockups" data-title="GWDC Pastor Appreciation Day handout">
+                  <img src="./images/GWDC Pastor Appreciation Day handout.png" alt="GWDC Pastor Appreciation Day handout">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/GWDC Pastor Appreciation Day handout (1).png" data-lightbox="mockups" data-title="GWDC Pastor Appreciation Day handout - back">
+                  <img src="./images/GWDC Pastor Appreciation Day handout (1).png" alt="GWDC Pastor Appreciation Day handout - back">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/GWDC Pastor Appreciation Day poster.png" data-lightbox="mockups" data-title="GWDC Pastor Appreciation Day poster">
+                  <img src="./images/GWDC Pastor Appreciation Day poster.png" alt="GWDC Pastor Appreciation Day poster">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/GWDC Pastor Appreciation Day poster (1).png" data-lightbox="mockups" data-title="GWDC Pastor Appreciation Day poster - page 2">
+                  <img src="./images/GWDC Pastor Appreciation Day poster (1).png" alt="GWDC Pastor Appreciation Day poster - page 2">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/level up fashion show flyer.png" data-lightbox="mockups" data-title="Level Up Fashion Show flyer">
+                  <img src="./images/level up fashion show flyer.png" alt="Level Up Fashion Show flyer">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/level up fashion show flyer-2.png" data-lightbox="mockups" data-title="Level Up Fashion Show flyer - alt">
+                  <img src="./images/level up fashion show flyer-2.png" alt="Level Up Fashion Show flyer - alt">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/Level Up Fashion Show - Save the Date.png" data-lightbox="mockups" data-title="Level Up Fashion Show - Save the Date">
+                  <img src="./images/Level Up Fashion Show - Save the Date.png" alt="Level Up Fashion Show - Save the Date">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/level up fashion show ticket.png" data-lightbox="mockups" data-title="Level Up Fashion Show ticket">
+                  <img src="./images/level up fashion show ticket.png" alt="Level Up Fashion Show ticket">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a href="./images/level up fashion show ticket-2.png" data-lightbox="mockups" data-title="Level Up Fashion Show ticket - alt">
+                  <img src="./images/level up fashion show ticket-2.png" alt="Level Up Fashion Show ticket - alt">
+                </a>
+              </div>
+            </div>
+      </section>
+    </div>
+
+    <hr>
+    <!-- SHOPIFY -->
+    <div class="bg">
+      <h1 class="indent animation2" id="shopify">Shopify</h1>
+      <section class="shopify animation2" id="shopify">
+            <div class="shopify-store">
+              <a href="https://sigynbrand.com/" target="_blank">
+                <div class="shopify-store-card"></div>
+              </a>
+            </div>
+            <div class="shopify-store">
+                <div class="shopify-store-card-blank">
+                  <i class="fa-solid fa-lock fa-3x"></i>
+                </div>
+            </div>
+            <div class="shopify-store">
+              <div class="shopify-store-card-blank">
+                <i class="fa-solid fa-lock fa-3x"></i>
+              </div>
+            </div>
+            <div class="shopify-store">
+              <div class="shopify-store-card-blank">
+                <i class="fa-solid fa-lock fa-3x"></i>
+              </div>
+            </div>
+      </section>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-background" id="contact">
+      <div class="contact-container">
+        <h1>Let's get in touch</h1>
+        <form action="https://api.web3forms.com/submit" method="post">
+          <div class="contact-layout">
+            <input type="hidden" name="access_key" value="4c1306bf-cbba-44a2-8f9e-fbaa32d669bc">
+
+            <input name="First and Last name" type="text" placeholder="First and Last name" class="grid-name grid-inputs">
+            <input name="Company" type="text" placeholder="Company" class="grid-company grid-inputs">
+            <input required name="Email" type="email" placeholder="Email" class="grid-email grid-inputs">
+            <input name="Phone" type="tel" placeholder="Phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="grid-tel grid-inputs">
+            <input required name="Position" type="text" placeholder="Position" class="grid-position grid-inputs">
+            <textarea placeholder="Type your message here" class="grid-type grid-inputs"></textarea>
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Compatible with desktop, tablet, and mobile view <br> Made using HTML, CSS, and JS <br> by Zion Ponder</p>
+    </footer>
+  </di v>
+
+  <!-- MOBILE NAV -->
+  <section class="footer">
+    <div class="navbar2">
+      <ul>
+          <li class="list active">
+              <a href="#home">
+                  <span class="icon">
+                      <ion-icon name="home-outline" title="Home"></ion-icon>
+                  </span>
+                  <span class="text" title="home">Home</span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#skills">
+                  <span class="icon">
+                      <ion-icon name="star-outline" title="Skills"></ion-icon>
+                  </span>
+                  <span class="text" title="skills">Skills</span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#about-me">
+                  <span class="icon">
+                      <ion-icon name="person-outline" title="About Me"></ion-icon>
+                  </span>
+                  <span class="text" title="home"about me>About Me</span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#portfolio">
+                  <span class="icon">
+                      <ion-icon name="briefcase-outline" title="Portfolio"></ion-icon>
+                  </span>
+                  <span class="text" title="home"portfolio>Portfolio</span>
+              </a>
+          </li>
+          <li class="list">
+              <a href="#contact">
+                  <span class="icon">
+                      <ion-icon name="mail-outline" title="Contact"></ion-icon>
+                  </span>
+                  <span class="text" title="contact">Contact</span>
+              </a>
+          </li>
+          <div class="indicator"></div>
+      </ul>
+  </div>
+
+  <div class="navbar2-bg"></div>
+  </section>
+
+  <!-- NAVBAR -->
+  <script>
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+        list.forEach((item) =>
+        item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item) =>
+    item.addEventListener('click',activeLink))
+  </script>
+  
+<!-- SCROLL BUTTON -->
+  <a id="scrollUp" href="#">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <!-- LIGHTBOX -->
+<script src="./code/lightbox-plus-jquery.js"></script>
+
+<!-- PARALLAX -->
+<script src="./code/parallax.js"></script>
+
+</body>
+</html>

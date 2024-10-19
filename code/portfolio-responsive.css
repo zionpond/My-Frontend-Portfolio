@@ -1,0 +1,184 @@
+@media screen and (max-width: 1135px) {
+  .about-me-img {
+    margin-top: 1.875rem;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+ .indent {
+  padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .about-me {
+    padding: .625rem;
+  }
+
+  .grid-gallery {
+    padding: .625rem;
+  }
+
+  .shopify-store-card-blank {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .indent {
+    padding: 0;
+  }
+  
+  .bg {
+    align-items: center;
+  }
+  
+  .navbar {
+    display: none;
+  }
+
+  .parallax {
+    height: 93vh;
+  }
+
+  .intro span {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    padding: .625rem;
+  }
+
+  .flip-card-container {
+    position: relative;
+    width: 300px;
+    height: 2.5rem;
+    perspective: 50rem;
+    flex-wrap: wrap;
+  }
+
+  .flip-card {
+    border-radius: .3125rem;
+    background: var(--dark-blue);
+    border: .125rem solid var(--light-blue-contrast);
+  }
+
+  .flip-card br {
+    display: none;
+  }
+
+  .card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    border-radius: .3125rem;
+  }
+
+  .card-front h2 {
+    font-size: .875rem;
+  }
+
+  .card-back {
+    background-color: var(--light-blue-contrast);
+    border-radius: 0;
+    transform: rotateX(180deg);
+  }
+
+  .card-back i {
+    scale: .5;
+  }
+
+  .flip-card-container:hover .flip-card{
+    transform: rotateX(-180deg);
+  }
+
+  .about-me {
+    display: block;
+    text-align: justify;
+  }
+  
+  .about-me-img {
+    display: none;
+  }
+
+  .portfolio-container-1 {
+    flex-direction: column;
+    align-items: center;
+    width: 32.5rem;
+    height: 75rem;
+  }
+
+  .card {
+    width: 21.875rem;
+    margin: .625rem;
+  }
+
+  .portfolio-container-1 input:checked + label {
+    height: 37.5rem;
+    width: 21.875rem;
+  }
+
+  .no-scroll {
+    display: none;
+  }
+
+  .infinite-scroll {
+    display: inherit;
+  }
+
+  .grid-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 8.3125rem;
+    height: 45.625rem;
+    overflow-y: scroll;
+  }
+
+  .contact-container h1 {
+    text-align: center;
+  }
+  
+  .contact-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-container {
+    margin-top: 2.5rem;
+    margin-bottom: 3.125rem;
+  }
+
+  #scrollUp {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+    position: absolute;
+  }
+
+  
+  footer {
+    display: none;
+  }
+
+  .indicator {
+    border: .375rem solid var(--dark-blue);
+    background: var(--grey-blue-contrast);
+  }
+  .indicator::before {
+    box-shadow: none;
+  }
+  .indicator::after {
+    box-shadow: none;
+  }
+}
